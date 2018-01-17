@@ -34,6 +34,11 @@
   const incrCounter = function () {  
     setCounter(counter + 1)
   };
+  
+  // return "PAPER", "SCISSORS", or "ROCK"- randomly
+	function getRobotMove () {
+	  return Object.keys(moves)[Math.floor(Math.random()*3)];
+	}
 
   function playRobot () {
     ['rock', 'scissors', 'paper'].forEach(function(item) {
@@ -62,15 +67,9 @@
       });
     });
   }
-	// return "PAPER", "SCISSORS", or "ROCK"- randomly
-	function getRobotMove () {
-	  return Object.keys(moves)[Math.floor(Math.random()*3)];
-	}
 
 	function playHuman () {
 	}
-
-
 
   switch(window.location.search.split('=')[1]) {
     case 'robot':
