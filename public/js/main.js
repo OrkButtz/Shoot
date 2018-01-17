@@ -63,7 +63,6 @@ function getRobotMove () {
 }
 
 function playHuman () {
-
 }
 
 switch(window.location.search.split('=')[1]) {
