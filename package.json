@@ -1,0 +1,23 @@
+{
+  "name": "shoot",
+  "version": "1.0.0",
+  "description": "A way for people to play rock, paper, scissors with other people or against ai\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[against other people or ai\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrkButtz/uniteled.git"
+  },
+  "author": "Jason & Pierre P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrkButtz/uniteled/issues"
+  },
+  "homepage": "https://github.com/OrkButtz/uniteled#readme",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
